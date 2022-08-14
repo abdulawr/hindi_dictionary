@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ss.technology.hindi_dictionary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".MCQS"
+            android:theme="@style/AppTheme.NoActionBarss"></activity>
+        <activity
+            android:name=".Translator"
+            android:label="Translator"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBarss">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Learn"
+            android:label="Learning Section"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Vocabulary"
+            android:label="Vocabulary Section"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Disease_Vocabulary"
+            android:label="Disease"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Animals_Vocabulary"
+            android:label="Animals"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Birds_Vocabulary"
+            android:label="Birds"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Body_Parts_Vocabulary"
+            android:label="Body Parts"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Clothing_Vocabulary"
+            android:label="Clothing"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Color_Vocabulary"
+            android:label="Colors"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Common_Shapes"
+            android:label="Common Shapes"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Emotion_Vocabulary"
+            android:label="Emotion"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Family_Member_Vocabulary"
+            android:label="Family Members"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Food_Vocabulary"
+            android:label="Food"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Fruit_Vocabulary"
+            android:label="Fruit"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Dry_Fruit_Vocabulary"
+            android:label="Dry Fruit"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Weather_Vocabulary"
+            android:label="Weather"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Vegetiable_Vocabulary"
+            android:label="Vegetables"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Vehicles_Vocablulary"
+            android:label="Vehicles"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Phrases_Activity"
+            android:label="Learn Idioms"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".WebPage_Viewer"
+            android:label="Common verbs"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Conversation"
+            android:label="Conversation Section"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Introduce_yourself"
+            android:label="Introduce Yourself"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Residance_Conversation"
+            android:label="Residence Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Hospital_conversation"
+            android:label="Hospital Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Restruent"
+            android:label="Restaurant Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Shop_Conversaction"
+            android:label="Shop Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Airport"
+            android:label="Airport Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Bank_conversaction"
+            android:label="Bank Conversation"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Privacy"
+            android:label="Privacy"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Transl_Fav"
+            android:label="Translator Favourites"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Dictionary"
+            android:theme="@style/AppTheme.NoActionBarss" />
+        <activity
+            android:name=".Favourite"
+            android:label="Dictionary Favourites"
+            android:theme="@style/AppTheme.NoActionBarss" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7611672890241421~9854195097" />
+    </application>
+
+</manifest>
